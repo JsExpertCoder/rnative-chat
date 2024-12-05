@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@services/*": ["./src/services/*"],
+      "@tempStore/*": ["./src/store/temp/*"],
+      "@components/*": ["./src/components/*"],
+      "@persistentStore/*": ["./src/store/persist/*"]
+    }
+  }
+}
